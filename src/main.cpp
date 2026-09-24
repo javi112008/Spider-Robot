@@ -1,3 +1,14 @@
+/*
+***********************************************************************
+Created: 09-02-2025
+For GTHS Engineering Pathway Halloween Desgin Contest
+Credits: 
+Javier "Javi" Medorio Cancino -CAD Designer, Hardware designer, & Main Programmer
+Jonthan Taylor - Main Assembler, Programmer, & Physics Calulations 
+
+***********************************************************************
+*/
+
 #include <ESP32Servo.h>
 #include <math.h>
 
@@ -6,10 +17,9 @@
 #define INCLUDE_GAMEPAD_MODULE
 #include <DabbleESP32.h>
 
-
+//**************
 // CONFIG
-
-
+//**************
 #define DEG_TO_RAD 0.017453292519943295
 #define RAD_TO_DEG 57.29577951308232
 
@@ -245,7 +255,7 @@ void writeLegInstant(Leg &leg, double X, double Y, double Z) {
   curZ[idx] = Z;
 }
 
-// Startup angle ramp. Kept because it avoids harsh boot snapping.
+// Startup angle ramp. 
 void rampLegToTargets(Leg &L, float c, float f, float t) {
   float cc = L.coxa.read();
   float ff = L.femur.read();
@@ -383,9 +393,7 @@ void moveAllLegsTo(double targetX[4], double targetY[4], double targetZ[4], int 
   }
 }
 
-// ======================================================
 // X STANCE
-// ======================================================
 
 void applyXPreset(int mode, double frontX, double rearX, double spreadY) {
   if (mode == 2) {
@@ -960,3 +968,4 @@ void loop() {
     crawlerWalk();
   }
 }
+//IF YOURE SEEING THIS HELLO TO YOU :) 
