@@ -3,7 +3,7 @@ An ESP32-powered, four-legged robot with 12 servos, inverse kinematics, and Blue
 The project brings together CAD, hardware assembly, and embedded programming to coordinate three joints on each leg. Instead of setting every servo angle manually for each movement, the code calculates joint angles from target foot positions.
 
 
-##**DEMOS**
+##DEMOS
 
 **Wiring**
 
