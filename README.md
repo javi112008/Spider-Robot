@@ -2,6 +2,26 @@ An ESP32-powered, four-legged robot with 12 servos, inverse kinematics, and Blue
 
 The project brings together CAD, hardware assembly, and embedded programming to coordinate three joints on each leg. Instead of setting every servo angle manually for each movement, the code calculates joint angles from target foot positions.
 
+
+**##DEMOS**
+
+**Wiring**
+
+<img width="3024" height="4032" alt="IMG_AE301EBE-79EE-4478-86FD-E52D0DE50E1E" src="https://github.com/user-attachments/assets/99454dc5-1820-491d-a0eb-0efe57a8749e" />
+
+
+**First Signs of life**
+
+https://github.com/user-attachments/assets/2781c3dc-acc7-4903-948e-92c0365bdabc
+
+
+
+**Showcase**
+
+https://github.com/user-attachments/assets/d1e4c3ed-5f26-441d-9475-6f431f296aba
+
+
+
 ## Features
 
 - Forward and backward walking, plus left and right turning through the Dabble GamePad.
